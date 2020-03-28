@@ -1,4 +1,6 @@
- class Solution{
+
+
+class Solution{
 
    static int queensAttack(int n,int k, int r_q, int c_q, int[][] obstacles) {
          int tempR_q = r_q; int tempC_q = c_q;
@@ -118,7 +120,7 @@
 public static void main(String[] args) {
   int obstacles[][] = new int[0][0];
 
-  System.out.println(queensAttack(8,0,5,4,obstacles));
+  System.out.println(queensAttack(8,0,5,4,obstacles));//just to check.
 
 
 }
